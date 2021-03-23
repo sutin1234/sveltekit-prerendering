@@ -26,7 +26,7 @@
 <div class="p-4">
     <ul>
         {#each users as user}
-            <li>{user.title}</li>
+            <li> <a href="/posts/{user.id}">{user.title}</a></li>
         {/each}
     </ul>
 </div>
